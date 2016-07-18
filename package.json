@@ -1,0 +1,22 @@
+{
+  "name": "request_header_parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sthodup1/Request-Header-Parser-Microservice.git"
+  },
+  "author": "Sunny Thodupunuri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sthodup1/Request-Header-Parser-Microservice/issues"
+  },
+  "homepage": "https://github.com/sthodup1/Request-Header-Parser-Microservice#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
