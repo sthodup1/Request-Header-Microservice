@@ -1,0 +1,26 @@
+html
+    head
+        link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css", integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7", crossorigin="anonymous")
+        title Request Header Parser Microservice
+    
+    body
+        div(class="container")
+            h1(class="header") API Basejump: Request Header Parser Microservice
+        
+            p By: Sunny Thodupunuri | 
+                a(href="https://github.com/sthodup1/Request-Header-Parser-Microservice", target="_blank") Github Repo
+            
+            blockquote User stories:
+                ul 1)  I can get the IP address, language and operating system for my browser
+                
+            h3 Example usage:
+            code 
+                a(style="color:inherit", href="/December%2015,%202015", target="_blank") https://timestamp-api-microservice.herokuapp.com/whoami
+
+            h3 Example output:
+            code.
+                {
+                  "ipaddress": 192.168.1.102,
+                  "language": "en-US",
+                  "software": "Windows NT 6.1; WOW64"
+                }
